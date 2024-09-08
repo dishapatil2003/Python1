@@ -1,0 +1,13 @@
+#maam--->maam
+#121--->121 same order of element(palindrome)
+
+list1 = [1,2,1]
+
+copy_list1 = list1.copy()
+copy_list1.reverse()
+
+if(copy_list1 == list1):
+    print("palindrome")
+else:
+    print("not palindrome")
+
